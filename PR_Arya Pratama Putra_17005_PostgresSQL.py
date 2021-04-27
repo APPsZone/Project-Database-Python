@@ -24,7 +24,7 @@ print("Anda memilih : " + menu)
 
 if menu=='1' :
     print("Create database dan tabel")
-    # create a database named bengkel
+    # create a database
     con = psycopg2.connect(
     host="localhost", 
     user = "postgres",
